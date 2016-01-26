@@ -13,11 +13,12 @@
 	}
 	, "main": "src/main/js/SdpParser.js"
 	, "dependencies": {
-		"jscommon": "beradrian/jscommon"
+		"jscommon": "beradrian/jscommon",
+		"pegjs": ">=0.9.0"
 	}
 	, "devDependencies" : {
-		"pegjs": ">=0.9.0"
-		, "jasmine": ">=2.3.1"
+		"pegjs": ">=0.9.0",
+		"jasmine": ">=2.3.1"
 	}
 	, "scripts": {
 		"pegjs": "node_modules/.bin/pegjs src/main/pegjs/SdpParser.pegjs src/main/js/SdpParser.js"
